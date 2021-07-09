@@ -42,17 +42,52 @@ h3 {
   align-items: center;
 }
 
-.process-list p:first-child {
+.process-list-1 p:first-child {
+  font-weight: bold;
   font-family: helvetica;
-  font-size: 20px;
+  font-size: 23px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.process-list p:last-child {
+.process-list-1 p:last-child {
   font-family: helvetica;
   font-size: 14px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.sub-header {
+  color: white;
+  background-image: url("../images/background.png");
+  background-position: left;
+
+  background-size: 100%;
+}
+.contact {
+  font-weight: normal;
+  font-family: helvetica;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.phone {
+  margin-bottom: 10px;
+}
+.email {
+  margin-bottom: 10px;
+}
+
+.footer {
+  color: white;
+  font-weight: normal;
+  font-family: helvetica;
+  font-size: 11px;
+  background-color: dimgray;
+}
+
+.footer a {
+  font-size: 11px;
 }
