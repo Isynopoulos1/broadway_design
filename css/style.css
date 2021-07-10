@@ -91,3 +91,29 @@ h3 {
 .footer a {
   font-size: 11px;
 }
+
+.imagen-1 {
+  background-image: url("../icons/identify.svg");
+  background-repeat: no-repeat;
+  margin-left: 48%;
+  margin-right: -48%;
+  padding-bottom: 1px;
+  height: 40px;
+}
+
+.imagen-2 {
+  background-image: url("../icons/execute.svg");
+  background-repeat: no-repeat;
+  margin-left: 48%;
+  margin-right: -48%;
+  padding-bottom: 1px;
+  height: 50px;
+}
+.imagen-3 {
+  background-image: url("../icons/understand.svg");
+  background-repeat: no-repeat;
+  margin-left: 48%;
+  margin-right: -48%;
+  padding-bottom: 1px;
+  height: 70px;
+}
