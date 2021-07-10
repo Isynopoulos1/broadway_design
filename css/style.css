@@ -8,6 +8,7 @@ h1 {
   margin-top: 10px;
 }
 
+/* NAV SECTION */
 .nav-main {
   background-image: url("../images/background.png");
   display: flex;
@@ -24,6 +25,35 @@ a {
   padding-bottom: 15px;
 }
 
+/* IMAGES SECTION */
+
+.imagen-1 {
+  background-image: url("../icons/identify.svg");
+  background-repeat: no-repeat;
+  margin-left: 48%;
+  margin-right: -48%;
+  padding-bottom: 1px;
+  height: 40px;
+}
+
+.imagen-2 {
+  background-image: url("../icons/execute.svg");
+  background-repeat: no-repeat;
+  margin-left: 48%;
+  margin-right: -48%;
+  padding-bottom: 1px;
+  height: 50px;
+}
+.imagen-3 {
+  background-image: url("../icons/understand.svg");
+  background-repeat: no-repeat;
+  margin-left: 48%;
+  margin-right: -48%;
+  padding-bottom: 1px;
+  height: 70px;
+}
+
+/* SUB-HEADER SECTION */
 h2 {
   font-family: helvetica;
   font-size: 32px;
@@ -65,6 +95,9 @@ h3 {
 
   background-size: 100%;
 }
+
+/* FOOTER SECTION */
+
 .contact {
   font-weight: normal;
   font-family: helvetica;
@@ -90,30 +123,4 @@ h3 {
 
 .footer a {
   font-size: 11px;
-}
-
-.imagen-1 {
-  background-image: url("../icons/identify.svg");
-  background-repeat: no-repeat;
-  margin-left: 48%;
-  margin-right: -48%;
-  padding-bottom: 1px;
-  height: 40px;
-}
-
-.imagen-2 {
-  background-image: url("../icons/execute.svg");
-  background-repeat: no-repeat;
-  margin-left: 48%;
-  margin-right: -48%;
-  padding-bottom: 1px;
-  height: 50px;
-}
-.imagen-3 {
-  background-image: url("../icons/understand.svg");
-  background-repeat: no-repeat;
-  margin-left: 48%;
-  margin-right: -48%;
-  padding-bottom: 1px;
-  height: 70px;
 }
